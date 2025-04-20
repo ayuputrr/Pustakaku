@@ -1,49 +1,54 @@
 .stats-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f3f4f6;
-  }
-  
-  .stats-content {
-    background-color: white;
-    padding: 2rem 3rem;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    text-align: center;
-  }
-  
-  .stats-title {
-    font-size: 2rem;
-    margin-bottom: 1.5rem;
-    color: #111827;
-  }
-  
-  .stats-list {
-    list-style: none;
-    padding: 0;
-    margin-bottom: 2rem;
-    text-align: left;
-  }
-  
-  .stats-list li {
-    font-size: 1.1rem;
-    margin-bottom: 0.75rem;
-  }
-  
-  .stats-back-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #2563eb;
-    color: white;
-    text-decoration: none;
-    border-radius: 999px;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-  }
-  
-  .stats-back-button:hover {
-    background-color: #1d4ed8;
-  }
-  
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 4rem 2rem 2rem;
+  background-color: #e0f2fe; /* Sama seperti halaman home */
+}
+
+.stats-content {
+  width: 100%;
+  max-width: 768px;
+  background-color: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.stats-title {
+  font-size: 2rem;
+  color: #05c2db;
+  margin-bottom: 1.5rem;
+}
+
+.stats-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 2rem;
+  text-align: left;
+  font-size: 1.1rem;
+}
+
+.stats-list li {
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.stats-back-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #2563eb;
+  color: white;
+  text-decoration: none;
+  border-radius: 999px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.stats-back-button:hover {
+  background-color: #1d4ed8;
+}
