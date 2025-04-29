@@ -17,7 +17,7 @@
 
 ## 🏗️ Struktur Proyek
 
-\`\`\`bash
+```bash
 Pustakaku-main/
 ├── public/
 │   ├── index.html
@@ -36,7 +36,7 @@ Pustakaku-main/
 │   └── index.js           # Entry point
 ├── package.json
 └── README.md
-\`\`\`
+```
 
 ---
 
