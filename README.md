@@ -43,31 +43,33 @@ Pustakaku-main/
 ## 🧑‍💻 Cara Menjalankan Aplikasi
 
 ### 1. Clone repository
-\`\`\`bash
+```bash
 git clone https://github.com/username/Pustakaku.git
 cd Pustakaku
-\`\`\`
+```
 
 ### 2. Install dependencies
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
 ### 3. Jalankan aplikasi
-\`\`\`bash
+```bash
 npm start
-\`\`\`
+```
 
-Aplikasi akan berjalan di \`http://localhost:3000\`
+Aplikasi akan berjalan di
+```bash 
+http://localhost:3000```
 
 ---
 
 ## 🧪 Testing
 
 Untuk menjalankan unit test:
-\`\`\`bash
+```bash
 npm test
-\`\`\`
+```
 
 ---
 
@@ -83,7 +85,7 @@ npm test
 
 ## 📌 Catatan Pengembangan
 
-- Semua data buku disimpan di browser melalui \`localStorage\`
+- Semua data buku disimpan di browser melalui ```localStorage```
 - Aplikasi ini **tidak terhubung ke backend**
 - Desain dan arsitektur bersifat modular dan dapat dikembangkan lebih lanjut
 
@@ -94,14 +96,3 @@ npm test
 Pull request dan saran fitur sangat terbuka! Jangan ragu untuk fork proyek ini dan kembangkan versimu sendiri.
 
 ---
-
-## 👨‍🎓 Author
-
-> **Nama:** [Nama Lengkap Anda]  
-> **Project:** Tugas Praktikum / Portofolio Pribadi  
-> **Institusi:** [Nama Universitas / Sekolah]
-
----
-EOF
-
-echo "README.md berhasil dibuat!"
